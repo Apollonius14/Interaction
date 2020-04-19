@@ -62,7 +62,7 @@ def main():
 	Pipe_Out,Pipe_In = Pipe()
 	Reader = Process(target=joyin, args=((Pipe_Out,Pipe_In),))
 	Reader.start()		
-	Writer = Process(target=loop, args=((Pipe_Out,Pipe_In),))
+	Writer = Process(target=printer, args=((Pipe_Out,Pipe_In),))
 	Writer.start()
 	Writer.join()
 	Reader.join()
