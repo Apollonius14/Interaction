@@ -6,7 +6,7 @@ But... if you must, these demo files show you ways of getting python to allow Ma
 
 In all cases, you must set up your listeners/event hooks/call backs *before* calling plt.show() -- once that happens, python struggles to execute the rest of your script, even if you use multiprocessing to run parallel processes, or multithreading.
 
-## Hello
+## Contents of this repo
 
 Option 1: Use matplotlib's inbuilt event handler fig.canvas.mpl_connect. This is documented fairly well here https://matplotlib.org/3.2.1/users/event_handling.html but it is limited to certain keyboard and mouse events within the figure. Check Integrated_Event_Handler.py
 
