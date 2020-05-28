@@ -16,10 +16,10 @@ Option 2: Use python's multiprocessing module to set up two parallel processes: 
 
 Option 3: Use matplotlib's inbuilt timer option that calls another function at specified intervals (callback) that function can be customised in the way you'd like - more flexible input options, such as a keylogger or a joystick.
 
-Examples: Callback_Timer_Process.py for a general generator process
+Example 3A: Callback_Timer_Process.py for a general generator process
           Custom_Event_Handler.py -- keylogger although you'll need sudo permissions and the keyboard library (pip) for the last one.
           
-          Quiver_joy_callback.py -- uses the converted Analogue signal from a rapsberry pi joystick to control the orientation of a 2D matplotlib quiver plot. [ You need to run on a raspberry pi connected like example 12.1.1 here https://github.com/Freenove/Freenove_Ultrasonic_Starter_Kit_for_Raspberry_Pi/blob/master/Tutorial.pdf_]
+Example 3B: Quiver_joy_callback.py -- uses the converted Analogue signal from a rapsberry pi joystick to control the orientation of a 2D matplotlib quiver plot. [ You need to run on a raspberry pi connected like example 12.1.1 here https://github.com/Freenove/Freenove_Ultrasonic_Starter_Kit_for_Raspberry_Pi/blob/master/Tutorial.pdf_]
           
           
           
